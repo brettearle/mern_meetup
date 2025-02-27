@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "run": "node index.js",
-    "test": "node --test"
+    "test": "node --test",
+    "test:watch": "node --test --watch ./.."
   },
   "engines": {
     "node": ">=23.8.0"

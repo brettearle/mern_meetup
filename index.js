@@ -1,2 +1,8 @@
+import { run, doWork } from "./run.js";
+//
 //entry point to system
-function main() {}
+async function main() {
+  run(doWork);
+}
+
+await main();
