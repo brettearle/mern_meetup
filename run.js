@@ -84,12 +84,11 @@ const run = async (cbfn) => {
   return 0;
 };
 
-// ========Practice yourself if you want =====
+// ========Practice yourself =====
 // 9 = squirtle is not the only pokemon we want to see, might need to refactor doWork which will
 // include adding tests
 // 10 = add some sweet moves to the pokemon retrieved, this will require refactoring tests that already work or extending with new ones
 // 11 = why are we not handing everything into run. logger should be controlled. Hand it into run so in tests you can log to a string or array and test against it.
 //
-// Note Solutions on branch solutions
 
 export { run, settler, doWork };
